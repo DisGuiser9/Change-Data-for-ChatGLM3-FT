@@ -3,7 +3,7 @@ import json
 
 def transfer():
     #Change directory to your dataset directory
-    directory = 'D:\Github\ChatGLM3-ft-dataset'
+    directory = 'the root to your dataset directory'
     filenames = os.listdir(directory)
 
     #Automatically load JSON files
